@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.TaskLinkerApp" parent="android:Theme.Material.Light.NoActionBar" >
+        <!-- Other theme attributes -->
+
+        <!-- Define your Typography -->
+        <item name="android:textAppearance">@style/TextDefault</item>
+    </style>
+
+    <style name="TextDefault" parent="TextAppearance.Compat.Notification.Info">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">16sp</item>
+
+    </style>
+
+
+</resources>
